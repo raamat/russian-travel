@@ -1,0 +1,26 @@
+.page__container {
+  margin: 0 auto;
+  position: relative;
+  min-width: 320px;
+  max-width: 1280px;
+  padding-top: 28px;
+  border: 1px solid ghostwhite;
+}
+
+@media screen and (max-width: 1024px) {
+  .page__container {
+    /*padding: 0;*/
+  }   
+}
+
+@media screen and (max-width: 768px) {
+  .page__container {
+    
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .page__container {
+    padding-top: 16px; 
+  }
+}

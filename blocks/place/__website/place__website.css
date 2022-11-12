@@ -1,0 +1,21 @@
+.place__website {
+  max-height: 46px;
+  align-self: end;
+
+}
+
+@media screen and (max-width: 1024px) {
+  .place__website {
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .place__website {
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .place__website {
+    padding: 0 16px; 
+  }
+}

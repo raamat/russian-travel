@@ -1,0 +1,33 @@
+.header {
+  display: flex;
+  max-width: 1184px;
+  margin: 0 auto;
+  padding: 0 48px;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 1024px) {
+  .header {
+  }   
+}
+
+@media screen and (max-width: 768px) {
+  .header {
+    padding: 0 24px;  
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .header {
+    padding: 0 16px;
+  }
+}
+
+/*повтор*/
+@media screen and (max-width: 320px) {
+  .header {
+    padding: 0 16px;
+  }
+}
+
+

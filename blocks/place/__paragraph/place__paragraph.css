@@ -1,0 +1,41 @@
+.place__paragraph {
+  margin: 0;
+  padding: 0;
+  color: #fff;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 29px;
+}
+
+.place__paragraph:not(:last-child) {
+  margin-bottom: 26px;
+}
+
+@media screen and (max-width: 1024px) {
+  .place__paragraph {
+  }
+}
+
+@media screen and (max-width: 920px) {
+  .place__paragraph {
+    font-size: 16px;
+    line-height: 26px;  
+  }
+}
+@media screen and (max-width: 768px) {
+  .place__paragraph {
+    /*повтор*/
+    font-size: 16px;
+    line-height: 26px;  
+  }
+  .place__paragraph:not(:last-child) {
+    margin-bottom: 25px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .place__paragraph {
+    padding: 0 16px;
+    white-space: pre-line;   
+  }
+}

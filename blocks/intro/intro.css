@@ -1,0 +1,28 @@
+.intro {
+  padding: 92px 148px;
+  display: flex;
+  max-width: 690px;
+  flex-direction: column;
+}
+
+.intro {
+  display: flex;
+}
+
+@media screen and (max-width: 1024px) {
+  .intro {
+    padding: 92px 48px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .intro {
+    padding: 88px 24px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .intro {
+    padding: 64px 16px;
+  }
+}
