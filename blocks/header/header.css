@@ -6,11 +6,6 @@
   justify-content: space-between;
 }
 
-@media screen and (max-width: 1024px) {
-  .header {
-  }   
-}
-
 @media screen and (max-width: 768px) {
   .header {
     padding: 0 24px;  
@@ -22,12 +17,4 @@
     padding: 0 16px;
   }
 }
-
-/*повтор*/
-@media screen and (max-width: 320px) {
-  .header {
-    padding: 0 16px;
-  }
-}
-
 

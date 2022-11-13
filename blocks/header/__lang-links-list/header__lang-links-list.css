@@ -4,20 +4,4 @@
   column-gap: 18px;
   list-style: none;
   margin: 0;
-
-}
-
-@media screen and (max-width: 1024px) {
-  .header__lang-links-list {
-  }
-}
-
-@media screen and (max-width: 768px) {
-  .header__lang-links-list {
-  }
-}
-
-@media screen and (max-width: 320px) {
-  .header__lang-links-list {
-  }
 }

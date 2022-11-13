@@ -10,17 +10,6 @@
   text-align: center;
 }
 
-@media screen and (max-width: 1024px) {
-  .cover__subtitle {
-  }
-}
-
-@media screen and (max-width: 768px) {
-  .cover__subtitle {
-    
-  }
-}
-
 @media screen and (max-width: 320px) {
   .cover__subtitle {
     padding-top: 16px;
