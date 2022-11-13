@@ -14,6 +14,3 @@
 
 
 [Ссылка на GitHub Pages](https://raamat.github.io/russian-travel/)
-
-
-
