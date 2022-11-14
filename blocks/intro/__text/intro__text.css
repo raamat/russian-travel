@@ -1,14 +1,8 @@
 .intro__text {
-  padding-top: 40px;
-  min-height: 208px;
+  margin: 0;
+  padding: 40px 0 0;
   color: #fff;
   font-weight: 400;
   font-size: 16px;
   line-height: 26px;
-}
-
-@media screen and (max-width: 320px) {
-  .intro__text {
-    white-space: pre-line;
-  }
 }

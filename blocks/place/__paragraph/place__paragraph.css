@@ -25,7 +25,6 @@
 
 @media screen and (max-width: 320px) {
   .place__paragraph {
-    padding: 0 16px;
-    white-space: pre-line;   
+    padding: 0 16px; 
   }
 }
